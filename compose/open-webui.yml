@@ -34,6 +34,8 @@ services:
     restart: unless-stopped
     volumes:
       - pipelines:/app/pipelines
+    networks:
+      - open-webui
 
 volumes:
   open-webui: {}
