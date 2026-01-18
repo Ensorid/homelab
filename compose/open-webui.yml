@@ -16,7 +16,7 @@ services:
       - SHOW_ADMIN_DETAILS=false
       - ENABLE_PUBLIC_ACTIVE_USERS_COUNT=false
       - OPENAI_API_BASE_URL=http://pipelines:9099
-      - OPENAI_API_KEY="0p3n-w3bu!"
+      - OPENAI_API_KEY=0p3n-w3bu!
       - ENABLE_FOLLOW_UP_GENERATION=false
       - ENABLE_EVALUATION_ARENA_MODELS=false
       - ENABLE_COMMUNITY_SHARING=false
